@@ -1,0 +1,213 @@
+  /*
+ для задания стилей выбранных тэгов
+ здесь в часности задаю цвет для каждого из тэгов
+ для некоторых задал рамку заданного размера
+ */
+ html {
+     padding: 0%;
+/*    font-size: 20px;  */
+/*   background-color: cadetblue;         /* цвет фона всей страницы */
+}
+
+body {
+    background-image: url(../pictures/workspace_laptop6.jpg);
+    background-repeat: no-repeat;
+   /*background-attachment: fixed; */
+    background-size: 100% auto;
+    height: 100%;
+    width: 100%;             /* ограничиваю ширину body */
+ /*   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif */
+  /*  font-family:Arial, Helvetica, sans-serif  */
+  /*  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif     */
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+/*    margin: auto;              /* auto - делит доступное пространство по горизонтали поровну слева и справа */
+/*    background-image: url(pictures\pig_picture.jpg);
+/*    background-repeat: no-repeat;
+ /*   background-attachment: fixed;
+ /*   background-size: cover;
+  /*  background-color: rgb(118, 45, 128);
+ /*   padding: 0 20px 20px 20px;  /* немного пространства вокруг контента */
+  /*  border: 5px solid green;  */ /* рамка заданной толщины и заданного цвета */
+}
+
+h1 {
+    color: rgb(250, 250, 250);
+    text-align: center;
+    width: 100%;
+ /*   width: 1000px;                    /* можно в процентах можно в пикселях */
+ /*   border: 1px solid black;  */
+    margin: auto;
+ /*   padding: 15px 450px 20px 450px;  /* немного пространства вокруг контента */
+    background-color: teal;
+  /*  text-shadow: 2px 2px 1px black;*/ /* тень от текста */
+}
+
+h2 {
+    color: rgb(1, 0, 2);
+    font-size: 25px;                /* задаю размер шрифта и далее выравнивание текста */
+    text-align: left;
+    padding: 15px 50px 20px 10px;  /* немного пространства вокруг контента */
+   /* text-shadow: rgb(253, 72, 72); */
+    width: 100%;
+    text-align: center;
+ /*   border: 1px solid black;  */
+}
+
+
+/* h3,ul {
+    color: teal;        /* выбор нескольких элементов сразу, т.е. здесь для ul и h3 задаю цвет текста teal */
+/*
+} 
+*/
+
+h4 {
+    font-size: 45px;                 /* задаю размер шрифта и далее выравнивание текста */
+    color: honeydew;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 5px;
+    border: 1px solid black;
+}
+/*
+p {
+    color: rgb(1, 0, 2);
+    font-size: 20px;                
+    text-align: left;
+    padding: 15px 50px 20px 10px;  
+}
+*/
+.intro {
+    color: rgb(1, 0, 2);
+    font-weight: bold;
+    font-size: 20px;                /* задаю размер шрифта и далее выравнивание текста */
+    text-align: left;
+    padding: 15px 10px 20px 10px;  /* немного пространства вокруг контента */    
+}
+
+.empty {
+   height: 5px;  
+/*   background: rgb(25,78,90);   */   
+}
+
+.empty1 {
+   height: 80px;  
+/*   background: rgb(25,78,90);   */   
+}
+
+.empty2 {
+    height: 140px;  
+ /*   background: rgb(25,78,90);   */ 
+}  
+
+.empty3 {
+    height: 100px;  
+ /*   background: rgb(25,78,90);   */ 
+}  
+
+
+.blank {
+    height: 100px;   
+}
+
+.list1 {
+margin: 0 0 0 0;
+}
+
+.list1 li {
+font-size: 21px;
+color:rgb(0, 0, 0);  
+background: url(../pictures/small_page_mini_s.jpg) left no-repeat; 
+padding-left: 520px; 
+height: 210px;
+list-style-type: none;
+
+}
+
+.list2 {
+    margin: 0 0 0 0;
+    }
+    
+    .list2 li {
+    color:rgb(7, 7, 7);
+    font-size: 21px;  
+    background: url(../pictures/device_app.jpg) left no-repeat; 
+    padding-left: 520px; 
+    height: 210px;
+    list-style-type: none;
+    
+    }
+
+
+
+.list3 {
+margin: 0 0 0 0;
+}
+
+.list3 li {
+font-size: 21px;
+color:rgb(8, 8, 8);  
+background: url(../pictures/sensor_small_s.jpg) left no-repeat; 
+padding-left: 520px; 
+height: 210px;
+list-style-type: none;
+
+}
+
+ .galery, .futer {
+        font-size: 23px;
+        font-weight: bold;
+        color:rgb(0, 0, 0); 
+        text-align: center;   
+ }
+
+/*
+
+.blok {
+    
+    height: 600px;
+    width: 100%;
+    background: url(../pictures/big_watchface_mini.png) 80% 50% no-repeat;
+    background-repeat: no-repeat;
+/*    background: rgb(25,78,90);    */
+  /*  background-image: url(pictures/pig_picture.jpg) 0 0 no-repeat;
+
+}
+*/
+
+
+
+.about {
+    color: rgb(1, 0, 2);
+    font-size: 18px;                /* задаю размер шрифта и далее выравнивание текста */
+    text-align: left;
+    padding: 15px 50px 20px 10px;  /* немного пространства вокруг контента */    
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: auto;
+}
+
+.column {
+    flex: 15%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+
+/*
+.discription {
+
+}
+*/
+img {
+
+    display: block;
+    margin: 0 auto;
+}
